@@ -4,8 +4,8 @@ import random
 def get_nprize_door(prize_door,n_doors,playerChoice):
     i = 1
 
-    while(i == prize_door or i == playerChoice): #checks if the door on array is the rigth one
-        i = (i+1)%(n_doors) #iterates while not the correct door
+    while(i == prize_door or i == playerChoice): 
+        i = (i+1)%(n_doors) 
 
     return i
 
